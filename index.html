@@ -1,42 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel ="stylesheet" href = "styles/styles.css">
     <title>MINUTE MEETING OCTOBER 9th</title>
   </head>
   <body>
-    <H1>
+    <style>
+        h1 {
+            color: rgb(0, 149, 255);
+            background-color: azure;
+            width: 400px;
+            height: 2cm;
+        }
+    </style>
+    <H1 id = "bigHead">
         MINUTE MEETING! OCTOBER 9th
     </H1>
-    <p>
+    <p class = "wrapper">
         Brainstorming for class ideas.
         <br>
         date: October 9th, 2022
     </p>
-    <h3>
-        Attendance: 
+    <h3 class = "px">
+        Attendance: <a href="https://google.com">google.com</a>
     </h3>
 
-        <ol>
+        <ul id = "attendance">
             <li>James</li>
             <li>Aldrin</li>
             <li>Johnathon</li>
             <li>Jeffery</li>
-        </ol>
+        </ul>
 
-    <h3>
+    <h3 class = "Q">
         Agenda:
     </h3>
         <ol>
-            <li>Play League of Legends</li>
-            <li>Play Apex Legends</li>
-            <li>Play rocket League</li>
-            <li>Play Super Smash Brothers</li>
+            <li class="box1" style="position:absolute">Play League of Legends</li>
+            <li class="box1" style = "position:static">Play Apex Legends</li>
+            <li class="box1">Play rocket League</li>
+            <li class="box1">Play Super Smash Brothers</li>
         </ol>
     <div>
-        <h2>
+        <h2 class = "box2">
             Stuff concerning this meeting
         </h2>
-        <h3>
+        <h3 class = "em1">
             Last Meeting topic:
         </h3>
         <p>
@@ -58,24 +67,24 @@
         </p>
     </div>
     <img src = "League_of_Legends_Cover.webp" alt = "image not loading sorry"/>
-    <div>
+    <div class = "abc">
         <hr>
-        <h2>lovely singing... sorta</h2>
+        <h2 >lovely singing... sorta</h2>
         <audio controls>
             <source src="hey%20there.mp3" type="audio/mpeg">
             Your browser does not support the audio tag.
         </audio>
-        <h2>league of legends 2022 theme song mv</h2>
-        <video width="320" height="240" controls>
+        <h2 class = "cm">league of legends 2022 theme song mv</h2>
+        <video class="big" width="320" height="240" controls>
             <source src="videoplayback.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
     </div>
     <details>
-        <summary>
+        <summary class = "vw">
             secret message
         </summary>
-        <p>
+        <p class = "box1">
 
             shhhhhh don't tell anyone but, It's not the best league theme song but I still kinda like it.
         </p>
@@ -83,8 +92,18 @@
     <form>
         Here is an absolutely useless button :) <br>
         <input type = "text">  
-        <button type = "submit">submit</button>
     </form>
+    <button>submit</button>
+
+    <div class="gridBox">
+        <div style="grid-row: 1; grid-column: 1;">
+            <h1>hello1</h1>
+        </div>
+        <div style="grid-row: 1; grid-column: 2;">
+            <h3>bello</h3>
+        </div>
+        
+    </div>
     <footer>Author: Jerry Xu<br>Email: jsxu@ucsd.edu</footer>
   </body>
 </html>

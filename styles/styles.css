@@ -1,0 +1,157 @@
+/* contains all the necessary implementations of css */
+
+
+
+@font-face {
+    font-family: "myFont";
+    src: url("../Roboto/Roboto-Black.ttf");
+  }
+/* units: */
+
+.em1 {
+    width: 0.2em;
+}
+
+.cm {
+    border-width: 0.5cm;
+}
+
+.Q {
+    padding: 100 mm;
+}
+
+
+.wrapper {
+    font-size: 1em;
+  }
+  
+  .px {
+    width: 200px;
+  }
+  
+  .vw {
+    width: 10vw;
+  }
+  
+/* Box Model */
+
+.box1 {
+    margin-top: -1%;
+    margin-right: 4em;
+    margin-bottom: 1%;
+    margin-left: 4em;
+
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+    border-style: solid;
+    border-color: aqua;
+    border-width: 1.5em;
+    border-radius: 25px;
+
+}
+
+.box2 {
+    margin: 10px 20px 10px 20px;
+
+    padding: 20px 10px 10px 20px;
+    border: 1cm solid green
+}
+
+.text {
+    color: antiquewhite;
+    text-decoration: revert-layer;
+    text-align: center;
+}
+
+.display_N{
+    display: none; 
+}
+
+.display_I{
+    display: inline;
+}
+
+#attendance {
+    font-family: "myFont" !important;
+    border: 1px solid #af199d;
+    padding: 2%;
+    width: 20vw;
+}
+
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2, h3{
+    max-width: fit-content;
+    text-decoration: underline;
+}
+
+p{
+    min-width: none;
+    text-align: center;
+}
+
+a[href = "https://google.com"]
+{
+    color: rebeccapurple;
+}
+
+#bigHead:hover {
+    color:darkblue;
+    background-color: rgba(8, 74, 255, 0.739);
+}
+
+ul li {
+    background-color: aquamarine;
+    width: 100px;
+}
+
+div > p {
+    padding-left: 1%;
+}
+
+h2 + p {
+    padding-left: 5cm;
+}
+
+img ~ h3 {
+    color: hsla(211,71%,25%,0.64);
+}
+
+li.box1{
+    padding-top: 10cm;
+}
+
+button:active{
+    background-color: black;
+}
+
+.abc{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-basis: content;
+}
+
+.big {
+    flex-grow: 2;
+}
+
+.gridBox {
+    display: grid;
+    grid-area: auto;
+    grid-auto-flow: dense;
+    grid-auto-columns: max-content;
+}
+@media (min-width:1000px)  {
+    p {
+        font-size: smaller;
+    }
+    h1, h2, h3, h4 {
+        font-size: smaller;
+    }
+}
