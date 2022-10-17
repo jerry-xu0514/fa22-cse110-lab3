@@ -17,5 +17,5 @@ What's on the immediate agenda? Things to look out for today!
 HELP needed, where? What? Who can help?
 
 - [x] Find someone to help Jerry on video
-- [] Backend framework needs fixing, xyz api call malfunction, page is crashing
-- [] lead Owen is out for two weeks, we need a temporary fill to cover for his position.
+- [ ] Backend framework needs fixing, xyz api call malfunction, page is crashing
+- [ ] lead Owen is out for two weeks, we need a temporary fill to cover for his position.
