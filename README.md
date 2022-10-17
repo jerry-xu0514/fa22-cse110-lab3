@@ -1,3 +1,3 @@
 # Lab 2 - Starter
 
-here is the [link](https://jerry-xu0514.github.io/Lab2_Starter/) to my minute meeting website! :D
+here is the [link](https://github.com/jerry-xu0514/fa22-cse110-lab3.git) to the webpage
